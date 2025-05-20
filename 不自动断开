@@ -4,7 +4,7 @@ Host *
   ServerAliveInterval 60
   ServerAliveCountMax 1000
 编辑服务器端
-编辑 /etc/ssh/sshd_config 文件：
+vi /etc/ssh/sshd_config
 ClientAliveInterval 60
 ClientAliveCountMax 1000
 然后重启 SSH 服务：
